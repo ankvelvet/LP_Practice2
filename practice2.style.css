@@ -1,0 +1,595 @@
+@charset "UTF-8";
+
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+
+body {
+  width: 1250px;
+}
+
+.header {
+  height: 70px;
+  background: #000;
+}
+
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 35px;
+  color: #f2f2f2;
+  line-height: 70px;
+}
+
+.header-nav ul {
+  display: flex;
+}
+
+.header-nav li {
+  margin-right: 35px;
+  font-size: 16px;
+}
+
+.header-nav a {
+  color: #f2f2f2;
+  text-decoration: none;
+}
+
+#eyecatch {
+  height: 600px;
+  background: url(../img/eyecatch.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.eyecatch-logo {
+  position: absolute;
+  padding-top: 280px;
+  padding-left: 100px;
+  color: #fff;
+  font-size: 35px;
+  font-style: italic;
+}
+
+.news-wrap {
+  display: flex;
+  background-color: #fff;
+  padding: 10px 120px 10px 10px;
+  position: absolute;
+  bottom: 0;
+  margin-left: 744px;
+}
+
+.news-title {
+  font-size: 12px;
+}
+
+.news-title dd {
+  margin: 5px;
+}
+.news-nav {
+  display: flex;
+  background-color: #000;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.news-nav a {
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.mission-wrap {
+  height: 500px;
+  background: linear-gradient(180deg, #000 80%, #fff 20%);
+  position: relative;
+  display: flex;
+}
+
+.mission-wrap h2 {
+  color: #fff;
+  font-size: 20px;
+  position: absolute;
+  margin: 125px 200px 0 265px;
+}
+
+.mission-wrap p {
+  color: #fff;
+  font-size: 12px;
+  padding: 15px;
+  margin: 165px 310px 0 250px;
+  position: absolute;
+  line-height: 1.5;
+}
+
+.mission-link {
+  padding: 10px 20px;
+  font-size: 12px;
+  color: #000;
+  background-color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  position: absolute;
+  margin: 270px 0 0 265px;
+}
+
+.mission-img {
+  width: 40%;
+  position: absolute;
+  margin-top: 100px;
+  right: 60px;
+}
+
+.service-wrap {
+  height: 1100px;
+  background-color: #e9e9e9;
+  position: relative;
+}
+
+.service-wrap h2 {
+  font-size: 30px;
+  text-align: center;
+  padding: 15px;
+}
+
+.service-img1 {
+  width: 50%;
+  left: 0;
+  position: absolute;
+  top: 600px;
+}
+
+.service-img2 {
+  width: 50%;
+  right: 0;
+  position: absolute;
+  top: 60px;
+}
+
+.service-content1 {
+  width: 520px;
+  height: 260px;
+  background-color: #fff;
+  position: absolute;
+  margin: 80px 230px;
+}
+
+.service-content1 h3 {
+  font-size: 12px;
+  margin-top: 60px;
+  margin-left: 40px;
+}
+
+.service-content1 p {
+  font-size: 12px;
+  margin-top: 15px;
+  margin-left: 40px;
+  margin-right: 40px;
+  line-height: 1.5;
+}
+
+.service-link1 {
+  padding: 10px 20px;
+  color: #000;
+  border: 1px solid #000;
+  text-decoration: none;
+  font-size: 12px;
+  cursor: pointer;
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 355px;
+}
+
+.service-content2 {
+  width: 520px;
+  height: 260px;
+  background-color: #fff;
+  position: absolute;
+  margin: 590px 500px;
+}
+
+.service-content2 h3 {
+  font-size: 12px;
+  margin-top: 60px;
+  margin-left: 40px;
+}
+
+.service-content2 p {
+  font-size: 12px;
+  margin-top: 15px;
+  margin-left: 40px;
+  margin-right: 40px;
+  line-height: 1.5;
+}
+
+.service-link2 {
+  padding: 10px 20px;
+  color: #000;
+  border: 1px solid #000;
+  text-decoration: none;
+  font-size: 12px;
+  cursor: pointer;
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 355px;
+}
+
+.company-wrap {
+  height: 700px;
+  background-color: #fff;
+}
+
+.company-container {
+  display: flex;
+}
+
+.company {
+  justify-content: space-between;
+  margin-top: 80px;
+  margin-right: 50px;
+  position: relative;
+}
+
+.company-img {
+  width: 600px;
+  height: 300px;
+}
+
+.company h2 {
+  font-size: 30px;
+  color: #fff;
+  position: absolute;
+  top: 110px;
+  left: 230px;
+}
+
+.company-link {
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  position: absolute;
+  top: 160px;
+  left: 270px;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+}
+
+.recruit {
+  justify-content: space-between;
+  margin-top: 80px;
+  position: relative;
+}
+
+.recruit-img {
+  width: 600px;
+  height: 300px;
+}
+
+.recruit h2 {
+  font-size: 30px;
+  color: #fff;
+  position: absolute;
+  top: 110px;
+  left: 250px;
+}
+
+.recruit-link {
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  position: absolute;
+  top: 160px;
+  left: 270px;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+}
+
+.FAQ {
+  width: 80%;
+  height: 100px;
+  background-color: #000;
+  margin-top: 110px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+
+.FAQ h2 {
+  font-size: 30px;
+  color: #fff;
+  position: absolute;
+  padding: 20px;
+}
+
+.FAQ-link {
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  margin-left: 460px;
+  cursor: pointer;
+  position: absolute;
+}
+
+.contact-wrap {
+  height: 500px;
+  background: url(../img/contact-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.contact-wrap h2 {
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  margin-top: 120px;
+  margin-left: 550px;
+}
+
+.contact-wrap h3 {
+  color: #fff;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+  position: absolute;
+  margin-top: 160px;
+  margin-left: 570px;
+}
+
+.contact-wrap h1 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: normal;
+  text-align: center;
+  position: absolute;
+  margin-top: 210px;
+  margin-left: 380px;
+}
+
+.contact-wrap p {
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  position: absolute;
+  margin-top: 270px;
+  margin-left: 170px;
+}
+
+.contact-wrap a {
+  color: #fff;
+  font-size: 12px;
+  padding: 5px 15px;
+  border: 1px solid #fff;
+  text-decoration: none;
+  position: absolute;
+  margin-top: 320px;
+  margin-left: 565px;
+}
+
+.header {
+  height: 70px;
+  background: #000;
+}
+
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 35px;
+  color: #f2f2f2;
+  line-height: 70px;
+}
+
+.header-nav ul {
+  display: flex;
+}
+
+.header-nav li {
+  margin-right: 35px;
+  font-size: 16px;
+}
+
+.header-nav a {
+  color: #f2f2f2;
+  text-decoration: none;
+}
+
+.footer {
+  height: 20px;
+  font-size: 12px;
+  color: #fff;
+  background-color: #000;
+  padding: 10px;
+  text-align: center;
+}
