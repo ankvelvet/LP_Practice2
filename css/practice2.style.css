@@ -401,6 +401,7 @@ select {
 }
 
 .company-container {
+  width: 100%;
   display: flex;
   justify-content: space-between;
 }
@@ -408,6 +409,12 @@ select {
 .company {
   margin-top: 80px;
   position: relative;
+}
+
+.company-img {
+  width: 880px;
+  height: 300px;
+  margin-right: 50px;
 }
 
 .company h2 {
@@ -430,27 +437,22 @@ select {
   position: absolute;
 }
 
-.company-img {
-  width: 850px;
-  height: 300px;
-}
-
 .recruit {
   margin-top: 80px;
   position: relative;
 }
 
 .recruit-img {
-  width: 850px;
+  width: 100%;
   height: 300px;
 }
 
 .recruit h2 {
   font-size: 30px;
   color: #fff;
-  position: absolute;
   top: 110px;
   left: 350px;
+  position: absolute;
 }
 
 .recruit-link {
@@ -458,11 +460,11 @@ select {
   font-size: 16px;
   font-weight: bold;
   text-decoration: none;
-  position: absolute;
   top: 170px;
   left: 370px;
   letter-spacing: 0.1em;
   cursor: pointer;
+  position: absolute;
 }
 
 .FAQ {
@@ -476,20 +478,20 @@ select {
   align-items: center;
 }
 
-.FAQ h2 {
+.FAQ-title {
   font-size: 30px;
   color: #fff;
-  position: absolute;
   padding: 20px;
 }
 
 .FAQ-link {
+  width: 100%;
   color: #fff;
   font-size: 16px;
   text-decoration: none;
-  margin-left: 650px;
   cursor: pointer;
-  position: absolute;
+  display: block;
+  text-align: center;
 }
 
 .contact-wrap {
