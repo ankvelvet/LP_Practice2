@@ -407,14 +407,14 @@ select {
 }
 
 .company {
+  width: 45%;
   margin-top: 80px;
   position: relative;
 }
 
 .company-img {
-  width: 880px;
+  width: 100%;
   height: 300px;
-  margin-right: 50px;
 }
 
 .company h2 {
@@ -438,6 +438,7 @@ select {
 }
 
 .recruit {
+  width: 45%;
   margin-top: 80px;
   position: relative;
 }
