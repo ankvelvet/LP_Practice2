@@ -417,12 +417,20 @@ select {
   height: 300px;
 }
 
+.company-item {
+  width: 100%;
+  height: 130px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .company h2 {
+  padding: 30px;
   font-size: 30px;
   color: #fff;
-  top: 110px;
-  left: 350px;
-  position: absolute;
+  text-align: center;
 }
 
 .company-link {
@@ -430,11 +438,10 @@ select {
   font-size: 16px;
   font-weight: bold;
   text-decoration: none;
-  top: 170px;
-  left: 390px;
   letter-spacing: 0.1em;
   cursor: pointer;
-  position: absolute;
+  display: block;
+  text-align: center;
 }
 
 .recruit {
@@ -448,12 +455,20 @@ select {
   height: 300px;
 }
 
+.recruit-item {
+  width: 100%;
+  height: 130px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .recruit h2 {
+  padding: 30px;
   font-size: 30px;
   color: #fff;
-  top: 110px;
-  left: 350px;
-  position: absolute;
+  text-align: center;
 }
 
 .recruit-link {
@@ -461,11 +476,10 @@ select {
   font-size: 16px;
   font-weight: bold;
   text-decoration: none;
-  top: 170px;
-  left: 370px;
   letter-spacing: 0.1em;
   cursor: pointer;
-  position: absolute;
+  display: block;
+  text-align: center;
 }
 
 .FAQ {
